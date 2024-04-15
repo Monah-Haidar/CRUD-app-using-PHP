@@ -1,0 +1,169 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body .title{
+    text-align: center;
+    font-size: 65px;
+}
+body h1{
+    font-family: arial;
+}
+
+div#menucontainer{
+    position: relative;
+    margin-bottom: 30px;
+}
+div#menucontainer li img{
+    width: 100%;
+    height: 700px;
+}
+div#menucontainer h1{
+    position: absolute;
+    left: 150px;
+    bottom: 60px;
+    color: white;
+    font-size: 65px;
+    background-color: black;
+}
+div#carouselcontainer h2{
+    font-family: arial;
+    font-size: 65px;
+    margin-left: 60px;
+    margin-bottom: 25px;
+    text-decoration: underline;
+}
+div#carouselcontainer{
+    margin-bottom: 300px;
+}
+div#carouselcontainer li{
+    position: relative;
+    float: left;
+    list-style-type: none;
+    margin-left: 60px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-family: arial;
+    font-size:20px;
+}
+div#carouselcontainer li a:hover{
+    color: green;
+    text-decoration: overline;
+}
+
+div#carouselcontainer li img{
+    width: 200px;
+    height: 200px;
+}
+div#carouselcontainer img{
+    width: 200px;
+    height: 200px;
+}
+div#carouselcontainer li h2{
+    text-align: center;
+}
+div#carouselcontainer h2{
+    font-size: 40px;
+}
+
+div#teamdetails ul{
+
+    list-style-type: none;
+    margin-bottom: 30px;
+    text-align: center;
+    font-family: arial;
+    font-size:20px;
+}
+
+
+div#formcontainer{
+    clear: both;
+    width: 500px;
+    margin-left: 25px;
+    padding: 20px;
+    border-width: 1px;
+    border-color:  #ccc;
+    border-style: solid;
+    font-size: 18px;
+}
+
+div#formcontainer input[type=text],select[name=purpose],input[type=email],input[type=file]{
+    margin-top: 10px;
+    margin-bottom:10px;
+} 
+div#formcontainer input[type=file]{
+    margin-top: 10px;
+    margin-bottom:10px;
+} 
+
+div#formcontainer textarea{
+    width: 100%;
+    margin-top: 7px;
+    margin-bottom: 0px;
+} 
+
+div#formcontainer input[type=submit], input[type=reset] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px;
+}
+
+div#formcontainer input[type=submit]:hover, input[type=reset]:hover{
+    background-color: blueviolet;
+}
+
+
+div#contactscontainer li{
+    list-style-type: none;
+    padding: 10px;
+    width: 250px;
+    border-width: 1px;
+    border-color:  black;
+    border-style: solid;
+    font-size: 17px;
+    font-family: arial;
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+
+div#logincontainer{
+    width: 300px;
+    padding: 20px;
+    border-width: 1px;
+    border-color:  #ccc;
+    border-style: solid;
+    font-size: 18px;
+    margin-left: 700px;
+    margin-top: 300px;
+}
+
+div#logincontainer input[type=text],input[type=password]{
+    margin-top: 10px;
+    margin-bottom:10px;
+} 
+
+div#logincontainer input[type=submit], input[type=reset] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px;
+}
+
+div#logincontainer input[type=submit]:hover, input[type=reset]:hover{
+    background-color: blueviolet;
+}
+
+div#logincontainer h2{
+    font-family: arial;
+}
+
+div#links a{
+    font-size: 40px;
+    color: Blue;
+}
+
+div#links a:hover{
+    color: blueviolet;
+    text-decoration: overline;
+}
