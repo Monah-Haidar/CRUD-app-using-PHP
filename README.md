@@ -1,5 +1,5 @@
 
-# Web Platform for Team and Contact Management
+# Web Platform for Football Team and Contact Management
 
 This platform provides a comprehensive system for managing team details and contacts. It's built with PHP and utilizes a MySQL database, handling operations such as adding, editing, deleting, and listing teams and contacts.
 
